@@ -31,9 +31,9 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-		char[] characters = text.toCharArray();
-		char[] newCharacters;
-		for (int i = 0; i < characters.length) {
+		char[] characters = input.toCharArray();
+		char[] newCharacters = null;
+		for (int i = 0; i < characters.length; i++) {
 			int randIndex = (int)(Math.random() * characters.length);
 			newCharacters[randIndex] = characters[i];
 		}
